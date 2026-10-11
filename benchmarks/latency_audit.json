@@ -1,0 +1,27 @@
+{
+  "audio_ring_buffer": {
+    "p50_us": 0.375,
+    "p99_us": 4.416,
+    "ops_per_sec": 424337
+  },
+  "vad_framing": {
+    "p50_us": 4.667,
+    "p99_us": 254.083
+  },
+  "cognitive_router": {
+    "tier_0_jev_p50_us": 1.583,
+    "tier_1_clef_p50_us": 1.208,
+    "tier_2_laya_ms": 11.9,
+    "laya_live_service": false
+  },
+  "action_contract_and_rollback": {
+    "p50_us": 1.917,
+    "p99_us": 55.291
+  },
+  "tts_and_visemes": {
+    "p50_ms": 4.423667,
+    "visemes_count": 52,
+    "audio_bytes": 78080
+  },
+  "total_closed_loop_ms": 25.83
+}
